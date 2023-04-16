@@ -1,0 +1,84 @@
+@media (max-width:900px) {
+    body {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+ 
+
+    .container {
+        
+        max-width: 350px;
+        height: 1000px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .descricao {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 70%;
+        margin-bottom: auto;
+        text-align: center;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        font-size: 15px;
+        margin: 0 auto;
+        line-height: 1.8;
+    }
+
+    .local-da-imagem {
+        order: -1;
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .Area-de-informacoes {
+        width: 100%;
+       height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        bottom: 0;
+     
+    }
+    
+
+    .titulo {
+        margin-bottom: auto;
+    }
+
+
+    .estatisticas {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        text-align: center;
+        height: 40%;
+    }
+    
+    .local-da-imagem-com-imagem{
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        background-image: url(../image-header-mobile.jpg)
+
+        
+    }
+}
+

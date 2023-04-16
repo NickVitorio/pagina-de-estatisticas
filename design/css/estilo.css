@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(233, 47%, 7%);
+    width: 100vw;
+    height: 100vh;
+
+}
+@keyframes aparecendo {
+    from{
+        opacity: 0;
+        background-color: #ffffff;
+    }
+    
+}
+
+.container {
+    animation: aparecendo 1s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55%;
+    width: 75%;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 50px #00002d;
+}
+
+.Area-de-informacoes {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    bottom: 0;
+ 
+}
+
+.informacoes {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+ 
+
+
+}
+
+.informacoes p {
+    width: 100%;
+}
+
+.titulo {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+}
+
+.titulo span {
+    color: hsl(277, 64%, 61%);
+}
+
+
+.descricao {
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    justify-content: space-between;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+
+}
+
+.estatisticas {
+    text-align: left;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+
+
+}
+
+.estatisticas h2 {
+    color: #ffffff;
+}
+
+.estatisticas p {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.local-da-imagem {
+    right: 0;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    background-color: hsl(277, 42%, 41%);
+}
+
+.local-da-imagem-com-imagem{
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image-header-desktop.jpg);
+    opacity: 50%;
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+}
+
+.attribution {
+    color: #ffffff;
+    padding-top: 20px;
+   
+}
+.attribution a{
+    transition:  0.5s ease-in-out;
+}
+.attribution a:hover{
+    color: #fffb00;
+    scale: 1.1;
+}
