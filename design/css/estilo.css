@@ -67,9 +67,6 @@ body {
 
 }
 
-.informacoes p {
-    width: 100%;
-}
 
 .titulo {
     font-family: 'Inter', sans-serif;
@@ -89,7 +86,7 @@ body {
     justify-content: space-between;
     font-size: 15px;
     line-height: 1.5;
-    width: 100%;
+    width:80%;
 
 }
 
